@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-LightItalic.eot");
+  src: url("../fonts/brown/Brown-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-LightItalic.woff2") format("woff2"), url("../fonts/brown/Brown-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-Thin.eot");
+  src: url("../fonts/brown/Brown-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-Thin.woff2") format("woff2"), url("../fonts/brown/Brown-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-Light.eot");
+  src: url("../fonts/brown/Brown-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-Light.woff2") format("woff2"), url("../fonts/brown/Brown-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-Bold.eot");
+  src: url("../fonts/brown/Brown-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-Bold.woff2") format("woff2"), url("../fonts/brown/Brown-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-ThinItalic.eot");
+  src: url("../fonts/brown/Brown-ThinItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-ThinItalic.woff2") format("woff2"), url("../fonts/brown/Brown-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-Regular.eot");
+  src: url("../fonts/brown/Brown-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-Regular.woff2") format("woff2"), url("../fonts/brown/Brown-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-RegularItalic.eot");
+  src: url("../fonts/brown/Brown-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-RegularItalic.woff2") format("woff2"), url("../fonts/brown/Brown-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Brown';
+  src: url("../fonts/brown/Brown-BoldItalic.eot");
+  src: url("../fonts/brown/Brown-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/brown/Brown-BoldItalic.woff2") format("woff2"), url("../fonts/brown/Brown-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
+
+body, html {
+  font-family: 'Brown' !important;
+  font-weight: 500; }
+
+h1 {
+  font-family: inherit; }
+
+p {
+  font-family: inherit; }
+
+h2 {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+  font-weight: 500; }
+
+h3 {
+  font-size: 18px;
+  margin-top: 0 !important; }
+
+h4 {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  margin-bottom: 20px !important;
+  line-height: 1.13333 !important; }
+
+.center {
+  margin: auto;
+  text-align: center !important; }
+
+.marginbottom {
+  margin-bottom: 40px; }
+
+@media (min-width: 760px) {
+  h2 {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-weight: 600; } }

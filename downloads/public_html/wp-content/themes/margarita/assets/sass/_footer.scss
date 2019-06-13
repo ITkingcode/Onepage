@@ -1,0 +1,132 @@
+ul.social {
+    margin:0;
+    padding:0;
+    li {
+        display:inline-block;
+            a {
+            display: block;
+            height: 26px;
+            width: 26px;
+            line-height: 26px;
+            border-radius: 50%;
+            text-align: center;
+            transition: .25s ease;
+            font-size:24px;
+            color:#fff;
+            font-weight: 100;
+            opacity:0.9;
+            }
+            &:focus {
+                outline:none;
+            }
+        }
+    }
+
+#footer {
+	background: #000;
+    padding: 15px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    width:100%;
+    bottom:0;
+    img {
+    	height:24px;
+    }
+    ul {
+        padding:0;
+        margin:0;
+    }
+    li {
+        list-style:none;
+    }
+    #copyright {
+    	padding-top:40px;
+    }
+#puff {
+    background:#000;
+}
+
+
+.threeblock {
+    width:100%;
+    max-width: 150rem;
+    margin:auto;
+    padding:40px 0;
+    div {
+        width:100%;
+        display:inline-block;
+        text-align:center;
+        margin:auto;
+        vertical-align: top;
+        padding: 35px;
+        img {
+            display:block;
+            text-align:center;
+            padding-bottom:20px;
+            width:48px;
+        }
+        h2 {
+            text-align:center;
+            display:block;
+            margin:auto;
+            padding-bottom:10px;
+            font-size:30px;
+            font-weight:bold;
+            color:#fff;
+        }
+        span {
+            color:rgba(255,255,255,0.4);
+            line-height:1.6;
+            font-size:14px;
+        }
+        a {
+            color:rgba(255,255,255,0.4) !important;
+        }
+    }
+}
+
+
+@media (min-width:768px) {
+.threeblock {
+    width:90%;
+    max-width: 150rem;
+    margin:auto;
+    padding:40px 0;
+    div {
+        width:32%;
+        display:inline-block;
+        text-align:center;
+        margin:auto;
+        vertical-align: top;
+        padding: 35px;
+        img {
+            display:block;
+            text-align:center;
+            padding-bottom:20px;
+            width:48px;
+            opacity:0.8;
+        }
+        h2 {
+            text-align:center;
+            display:block;
+            margin:auto;
+            padding-bottom:10px;
+            font-size:30px;
+            color:#fff;
+        }
+        span {
+            color:rgba(255,255,255,0.4);
+            line-height:1.6;
+            font-size:14px;
+        }
+        a {
+            color:rgba(255,255,255,0.4);
+        }
+    }
+}
+}
+
+
+}

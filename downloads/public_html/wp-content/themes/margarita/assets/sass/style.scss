@@ -1,0 +1,36 @@
+/*
+  Theme Name: Paganini
+  Theme URI: http://www.paganini.nu
+  Author: Sam Alfaro
+  Author URI: http://www.madebysam.se/
+  Description: Custom made theme for Paganini Ristorante
+  Version: 1.0.0
+  License:
+  License URI:
+  Text Domain: paganini
+  */
+
+
+/*--------------------
+>>>    COMPONTENTS:
+--------------------*/
+@import 'colors';
+@import 'global';
+@import 'typography';
+@import 'flexslider';
+@import 'testimonials';
+@import 'banner';
+@import 'mainnav';
+@import 'gallery';
+
+
+/*----- 1.0 Elements -----*/
+
+@import 'hero';
+@import 'blocks';
+@import 'footer';
+@import 'header';
+@import 'buttons';
+@import 'hovercart';
+@import 'minicart';
+@import 'calendar';

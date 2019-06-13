@@ -1,0 +1,23 @@
+{
+  "name": "startertheme",
+  "version": "1.0.0",
+  "description": "developer starter theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minimalistic",
+    "clean",
+    "wordpress",
+    "theme"
+  ],
+  "author": "sam alfaro",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-sass": "^3.2.1"
+  }
+}

@@ -1,0 +1,90 @@
+/* --- General Button --- */
+.button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  font-size: 16px;
+  line-height: 4;
+  margin: 0.5em;
+  padding: 1em 2em; }
+
+.white,
+.white:hover
+.white:focus {
+  color: #000 !important; }
+
+.black:hover {
+  opacity: 1;
+  color: #fff !important; }
+
+.pulse:hover,
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 0.8em rgba(255, 255, 255, 0); }
+
+.pulse2:hover,
+.pulse2:focus {
+  animation: pulse2 1s;
+  box-shadow: 0 0 0 0.8em transparent; }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover); } }
+
+@keyframes pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover); } }
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em; }
+
+.fill {
+  --color: #a972cb;
+  --hover: #cb72aa; }
+
+.pulse {
+  --color: #fff;
+  --hover: white; }
+
+.pulse2 {
+  --color: #000;
+  --hover: black; }
+
+.close {
+  --color: #ff7f82;
+  --hover: #ffdc7f; }
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60; }
+
+.up {
+  --color: #e4cb58;
+  --hover: #94e458; }
+
+.slide {
+  --color: #8fc866;
+  --hover: #66c887; }
+
+.offset {
+  --color: #19bc8b;
+  --hover: #1973bc; }
+
+button {
+  color: var(--color);
+  transition: 0.25s; }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff; }
+
+.button {
+  color: var(--color);
+  transition: 0.25s; }
+  .button:hover, .button:focus {
+    border-color: var(--hover);
+    color: #fff; }

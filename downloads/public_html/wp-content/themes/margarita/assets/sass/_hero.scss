@@ -1,0 +1,152 @@
+$c1: pink;
+$c2: #e84a69;
+
+
+.contenthero {
+    position:relative;
+    z-index:99;
+}
+
+.slickSlider {
+    width: 100%;
+    margin: 30px 50px 50px;
+    height:100vh;
+}
+
+.slick-slider {
+  height:100vh;
+}
+
+.slick-slide {
+    background: $c1;
+    color: white;
+    padding: 40px 0;
+    font-size: 30px;
+    font-family: "Arial", "Helvetica";
+    text-align: center;
+}
+
+.slick-list {
+  height:100vh;
+}
+
+.slick-track {
+  height:100vh;
+}
+
+.slick-prev:before, 
+.slick-next:before {
+    color: black;    
+}
+
+.slick-prev {
+  left:0;
+  z-index:999;
+}
+ .slick-next {
+  right:0;
+  z-index:999;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-slide:nth-child(odd) {
+     background: $c2;
+}
+
+.col{
+  padding-bottom: 10px;
+}
+
+
+
+#home {
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    transition:all .5s ease;
+} 
+
+div#home:before {
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    content: "";
+    overflow: hidden;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    height: 100%;
+}
+.hero-content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.space {
+    height:60px;
+}
+.hero-logo {
+    display:block;
+    width:250px;
+    margin:0 auto;
+    padding-bottom:40px;
+}
+
+.hero-content-inner {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    max-width: 60rem;
+    padding: 30px;
+    h1 {
+    font-size: 24px;
+    max-width: 680px;
+    margin: 0 auto 30px;
+    text-align: center;
+    color:#fff;
+    padding-bottom:30px;
+    font-weight:bold;
+    }
+    .underline {
+    color: #fff;
+    border-bottom: .18em solid #fff;
+    padding-bottom: .15em;
+    line-height: 1.65em;
+    }
+}
+
+@media (min-width: 768px) {
+.hero-logo {
+    display:none;
+}
+.hero-content-inner {
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    width: 80%;
+    max-width: 70rem;
+    padding: 50px;
+    h1 {
+    	font-size:44px !important;
+        font-weight:bold;
+        padding-bottom:10px;
+    }
+}
+}
