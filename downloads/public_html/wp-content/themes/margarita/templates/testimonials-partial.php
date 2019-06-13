@@ -11,7 +11,7 @@
 		<div class="start-banner-text">
 			<div class="row">
 				<div class="small-12 columns">
-					<img class="hero-logo" alt="<?php wp_title( '-', true, 'right' ); bloginfo( 'name' ); ?>" title="<?php wp_title( '-', true, 'right' ); bloginfo( 'name' ); ?>" src="<?php echo get_template_directory_uri(); ?>/assets/img/paganini-logo.png">
+					<img class="hero-logo" alt="<?php wp_title( '-', true, 'right' ); bloginfo( 'name' ); ?>" title="<?php wp_title( '-', true, 'right' ); bloginfo( 'name' ); ?>" src="<?php echo get_template_directory_uri(); ?>">
 			<h1><span class="underline">En äkta genuin italiensk restaurang i Stockholm.</span></h1>
 			  				<a href="#bokabord" class="button pulse dot">Boka bord</a>
 				</div>
