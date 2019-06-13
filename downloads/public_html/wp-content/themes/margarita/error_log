@@ -1,1 +1,1 @@
-[19-Dec-2018 15:40:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/eynotlkh/public_html/wp-content/themes/paganini/index.php on line 1
+[19-Dec-2018 15:40:37 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/eynotlkh/public_html/wp-content/themes/margarita/index.php on line 1
