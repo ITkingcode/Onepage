@@ -15,7 +15,7 @@
   "author": "sam alfaro",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.23.6",
+    "browser-sync": "^2.29.1",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.9.3",
     "gulp-sass": "^3.2.1"
